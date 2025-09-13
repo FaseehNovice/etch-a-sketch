@@ -1,15 +1,28 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 #container{
-    margin: 50px;
     display: flex;
-    width: 400px;
+    width: 960px;
     flex-wrap: wrap;
 }
 
 #container > div:hover{
     background-color: black;
+}
+
+button{
+    margin-bottom: 50px;
+    width: 100px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+    background-color: rgb(16, 189, 219);
+    color: white;
+    font: bolder;
+    font-size: 15px;
 }
