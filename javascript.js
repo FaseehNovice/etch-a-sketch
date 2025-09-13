@@ -40,7 +40,7 @@ function deleteGrid(container ){
 
 creatGrid(container,n);
 
-let btn = document.querySelector("button");
+let btn = document.querySelector("#grid-btn");
 
 btn.addEventListener("click",() => {
 
@@ -52,6 +52,13 @@ btn.addEventListener("click",() => {
     else{
         alert("Rows Should be Greater than 0 and less than 100!")
     }
+})
+
+let btnReset = document.querySelector("#reset");
+
+btnReset.addEventListener("click",() => {
+    deleteGrid(container)
+    creatGrid(container,16);
 })
 
 

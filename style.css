@@ -21,8 +21,12 @@ button{
     height: 30px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 12px;
-    background-color: rgb(16, 189, 219);
+    background-color: rgb(194, 36, 36);
     color: white;
     font: bolder;
     font-size: 15px;
+}
+#grid-btn{
+    margin-bottom: 10px;
+    background-color: rgb(16, 189, 219);
 }
